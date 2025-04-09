@@ -11,7 +11,3 @@ python:
 sphinx:
   configuration: "source/conf.py"
 
-apt:
-  packages:
-    - build-essential
-    - python3.7-dev
