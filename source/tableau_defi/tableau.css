@@ -1,0 +1,24 @@
+img{
+    width: 20px;
+}
+
+table{
+    border-collapse:collapse;
+}
+table, td, th{
+    border : 1px solid black ;
+    text-align : center;
+}
+
+td, th{
+    padding:10px;
+}
+
+thead, th{
+    font-weight : bold;
+    background-color : lightgray;
+}
+
+.nompb{
+	font-size : 60%;
+}

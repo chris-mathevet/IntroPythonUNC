@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8"/>
+	<title>Défi-code|Résultats</title>
+    <link rel="stylesheet" href="tableau.css" type="text/css"/>
+		<!--<link rel="stylesheet" href="_static/css/theme.css" type="text/css"/>-->
+
+</head>
+<body>
+	<header>
+        <h1> Résultats définitifs du "Défi - code"</h1>
+				<p>Généré le {{date.day}}/{{date.month}}/{{date.year}} à {{date.strftime("%H:%M:%S %Z")}}</p>
+	</header>
+	<article>
+				<h2>Ils ont relevé le défi</h2>
+				<table>
+						<tbody>
+							<tr>
+								<th>Participants</th>
+								{% for i in range(exercices|length) %}
+								<th>Problème {{i+1}} <br> <span class="nompb">{{exercices[i]}}</span></th>
+								{% endfor %}
+							</tr>
+							{% for nom in etudiants_best %}
+								<tr>
+										<th>{{nom}}</th>
+										{% set valide = namespace(value=True) %}
+										{% for exo in exercices %}
+										<td>
+											{% if resultats_best[nom][exo]=='oui' and valide.value %}
+											<img src="medaille.png" alt="X"/>
+											{% elif resultats_best[nom][exo]=='oui' %}
+											<img src="medaille_bloquee.png" alt="-"/>
+											{% else %}
+											{% set valide.value = False %}
+											{% endif %}
+										</td>
+										{% endfor %}
+								</tr>
+								{% endfor %}
+						</tbody>
+				</table>
+<!--			</article>
+			<article>-->
+				<h2>Ils ont résolu une partie des 12 problèmes</h2>
+				<table>
+						<tbody>
+							<tr>
+								<th>Participants</th>
+								{% for i in range(exercices|length) %}
+								<th>Problème {{i+1}} <br> <span class="nompb">{{exercices[i]}}</span></th>
+								{% endfor %}
+							</tr>
+							{% for nom in etudiants_others %}
+								<tr>
+										<th>{{nom}}</th>
+										{% set valide = namespace(value=True) %}
+										{% for exo in exercices %}
+										<td>
+											{% if resultats_others[nom][exo]=='oui' and valide.value %}
+											<img src="medaille.png" alt="X"/>
+											{% elif resultats_others[nom][exo]=='oui' %}
+											<img src="medaille_bloquee.png" alt="-"/>
+											{% else %}
+											{% set valide.value = False %}
+											{% endif %}
+										</td>
+										{% endfor %}
+								</tr>
+								{% endfor %}
+						</tbody>
+				</table>
+    </article>
+		<p>Légende :
+			<ul>
+			<li><img src="medaille.png" alt="X"/> Problème résolu
+			<li><img src="medaille_bloquee.png" alt="-"/> Problème bloqué (vous devez d'abord résoudre les problèmes précédents)
+			</ul>
+		<p>
+</body>
+</html>

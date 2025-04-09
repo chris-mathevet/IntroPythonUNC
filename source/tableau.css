@@ -1,0 +1,48 @@
+body{
+font-family: fantasy;
+}
+
+article {
+  background-image: url('logo_python.png');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	background-size: cover;
+	/*background-origin: border-box;*/
+	background-position: 100px 200px;
+}
+
+h1{
+	font-size: 300%;
+	text-align: center;
+	background-color : rgba(255, 255, 255, 0.8);
+
+}
+
+img{
+    width: 40px;
+}
+
+table{
+    border-collapse:collapse;
+		background-color : rgba(255, 255, 255, 0.8);
+		table-layout: auto;
+		width: 100%;
+}
+table, td, th{
+    border : 1px solid black ;
+    text-align : center;
+}
+
+
+td, th{
+    padding:10px;
+}
+
+thead, th{
+    font-weight : bold;
+    background-color : steelblue;
+}
+
+.nompb{
+	font-size : 60%;
+}
