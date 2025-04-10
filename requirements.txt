@@ -4,7 +4,6 @@ Babel==2.6.0
 certifi==2018.10.15
 chardet==3.0.4
 docutils==0.14
--e git+https://github.com/chris-mathevet/sphinx-chris.git#egg=easypython_testeur
 idna==2.7
 imagesize==1.1.0
 Jinja2==2.10
