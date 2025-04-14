@@ -9,5 +9,5 @@ Ecrire une fonction ``nombreSymetrique`` qui renvoie True si un *nombre* est sym
 
 
 .. easypython:: /exercicesTD4/NombreSymetrique.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

@@ -6,5 +6,5 @@ On voudrait stocker les différents chiffres d'un nombre entier dans une liste e
 Ecrire une fonction ``stockerChiffres`` qui construit et renvoie une liste constituée des chiffres d'un *nombre* passé en paramètre.
 
 .. easypython:: /exercicesTD4/StockerChiffres.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

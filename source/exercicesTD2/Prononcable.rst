@@ -6,5 +6,5 @@ On considère qu'un mot est prononçable s'il ne contient pas plus de trois voye
 Ecrire une fonction ``prononcable`` qui retourne True si un mot passé en paramètre est prononçable et False sinon.
 
 .. easypython:: /exercicesTD2/Prononcable.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313
