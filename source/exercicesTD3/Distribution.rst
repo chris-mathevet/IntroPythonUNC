@@ -7,5 +7,5 @@ Ecrire une fonction ``distribution`` qui construit ce résultat à partir d'une 
 
 
 .. easypython:: /exercicesTD3/Distribution.py
-   :language: python
+   :language: Jacadi
    :uuid: 1231313

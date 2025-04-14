@@ -15,5 +15,5 @@ La fédération d'athlétisme vient de publier les critères de qualification à
 Ecrire une fonction ``qualifJO`` prenant en entrée 4 informations : le sexe ('M' ou 'F'), le record personnel (un nombre réel), le nombre de victoires (un entier) et le fait d'être ou non champion du monde (un booléen). Votre fonction devra renvoyer True si l'athlète vérifie les critères de qualification et False sinon.
 
 .. easypython:: /exercicesTP2/QualificationJO.py
-   :language: python
+   :language: Jacadi
    :uuid: 1231313

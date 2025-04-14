@@ -9,5 +9,5 @@ Ecrire une fonction ``permutationListe`` qui construit ce résultat à partir d'
 
 
 .. easypython:: /exercicesTD3/Permutation.py
-   :language: python
+   :language: Jacadi
    :uuid: 1231313
