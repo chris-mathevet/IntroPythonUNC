@@ -5,5 +5,5 @@ Ecrire une fonction ``plusLongueSuite`` qui renvoie la longueur de la plus grand
 
 
 .. easypython:: /exercicesTP2/PlusLongueSuite.py
-   :language: python
+   :language: Jacadi
    :uuid: 1231313

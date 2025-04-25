@@ -7,5 +7,5 @@ Etant donnée une *liste* d'équipes d'une poule passée en paramètre, écrire 
 .. attention:: Pour que votre fonction puisse être évaluée correctement vous veillerez à respecter l'ordre des éléments de la liste construite conformément à la logique de construction proposée dans les exemples visibles, ci-dessous.
 
 .. easypython:: /exercicesTP5/MatchsDePoule.py
-   :language: python
+   :language: Jacadi
    :uuid: 1231313

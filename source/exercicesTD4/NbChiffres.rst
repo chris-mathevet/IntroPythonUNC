@@ -6,5 +6,5 @@ Ecrire une fonction ``nbChiffres`` qui retourne le nombre de chiffres contenus d
 On rappelle que le chiffre des unités d'un nombre est obtenu en lui appliquant ``%10`` et que le nombre sans ses unités est obtenu en lui appliquant ``//10``.
 
 .. easypython:: /exercicesTD4/NbChiffres.py
-   :language: python
+   :language: Jacadi
    :uuid: 1231313
