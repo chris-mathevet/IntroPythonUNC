@@ -2,4 +2,4 @@
 IJVM
 ==========================
 
-.. include::  testIJVM/repSource/
+.. include::  testIJVM/ijvm.rst
