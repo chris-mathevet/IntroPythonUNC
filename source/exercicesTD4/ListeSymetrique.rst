@@ -6,5 +6,5 @@ Une liste est symétrique si son premier élément est identique à son dernier 
 Ecrire une fonction ``listeSymetrique`` qui retourne True si une liste *l* est symétrique et False sinon.
 
 .. easypython:: /exercicesTD4/ListeSymetrique.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

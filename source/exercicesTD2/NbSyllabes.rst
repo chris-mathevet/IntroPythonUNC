@@ -9,5 +9,5 @@ On va considère qu'une syllabe dans un mot est une suite de consonnes suivie d'
 Ecrire une fonction ``nbSyllabes`` qui retourne le nombre de syllabes contenues dans un mot passé en paramètre.
 
 .. easypython:: /exercicesTD2/NbSyllabes.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

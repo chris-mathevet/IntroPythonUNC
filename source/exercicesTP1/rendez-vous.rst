@@ -8,5 +8,5 @@ Ecrire une fonction ``rendezVous`` prenant en entrée les dates de début et de 
 .. hint:: En cas de difficultés sur cet exercice, une correction commentée vous est proposée `ici <https://foad.unc.nc/mod/resource/view.php?id=64758>`_
 
 .. easypython:: /exercicesTP1/rendez-vous.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

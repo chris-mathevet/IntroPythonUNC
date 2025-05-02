@@ -5,5 +5,5 @@ Ecrire une fonction ``permutationChaine`` qui prend en paramètres une chaîne d
 
 
 .. easypython:: /exercicesTD3/PermutationChaine.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

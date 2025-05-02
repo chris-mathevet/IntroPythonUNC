@@ -9,5 +9,5 @@ Une année bissextile doit correspondre à un nombre qui est :
 Ecrire une fonction ``bissextile`` prenant en entrée une année sous la forme d'un entier (annee) et qui retourne True si il s'agit d'une année bissextile et False sinon.
 
 .. easypython:: /exercicesTP1/bissextile.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

@@ -7,5 +7,5 @@ Si *debut* n'est pas un indice de la chaîne *s*, la fonction doit retourner la 
 
 
 .. easypython:: /exercicesTD3/SousChaine.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313

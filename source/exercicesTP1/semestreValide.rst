@@ -6,5 +6,5 @@ Votre semestre est constitué de deux Unités d'Enseignement (UE) : une unité f
 Ecrire une fonction ``semestreValide`` prenant en entrée les notes d'un étudiant aux deux UE sous la forme de deux réels (ue1,ue2) et qui retourne True si le semestre est validé et False sinon.
 
 .. easypython:: /exercicesTP1/semestreValide.py
-   :language: Jacadi
+   :language: python
    :uuid: 1231313
