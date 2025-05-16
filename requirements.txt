@@ -19,7 +19,8 @@ requests==2.20.1
 six==1.11.0
 snowballstemmer==1.2.1
 Sphinx==1.8.2
--e git+https://gitlab.com/FlorentBecker2/sphinx-easypython.git#egg=sphinx_easypython
+# -e git+https://gitlab.com/FlorentBecker2/sphinx-easypython.git#egg=sphinx_easypython
+-e git+https://github.com/chris-mathevet/sphinx-chris.git
 sphinxcontrib-websupport==1.1.0
 urllib3==1.24.1
 sphinx_rtd_theme
